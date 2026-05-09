@@ -86,7 +86,7 @@ print(info2)
 print(info3)
 
 # способ 2
-for i in range(3):
+for i in range(len(list_num)):
     print('{}: {}'.format(list_str[i], list_num[i]))
 
 age = int(input('Введите ваш возраст '))
